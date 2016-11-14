@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{97AF1298-B516-4861-9C66-3D01B15FD7C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Servico", "2 - Servico", "{990243FF-4F84-43D1-8DCC-87AC5FAC6909}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{F1378896-EF5E-4A45-9DCB-73BAF0E3DB17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestrutura", "4 - Infraestrutura", "{D1F95F95-E4BE-4D62-BF30-1F6E5EC182CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WfaSistemaConsultorio", "WfaSistemaConsultorio\WfaSistemaConsultorio.csproj", "{EDBF48C5-0355-4D2D-AC22-728B837FC121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaConsultorio.Dominio", "SistemaConsultorio.Dominio\SistemaConsultorio.Dominio.csproj", "{50D7B104-6E69-4CFE-ACA8-02AEC0F13DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaConsultorio.Infraestrutura", "SistemaConsultorio.Infraestrutura\SistemaConsultorio.Infraestrutura.csproj", "{07B20968-CACF-41CA-A3B8-EB7C883B9E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfSistemaConsultorio", "WcfSistemaConsultorio\WcfSistemaConsultorio.csproj", "{F33A8A7F-079B-4BB5-AFC4-75B959050923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaConsultorio.Servico", "SistemaConsultorio.Servico\SistemaConsultorio.Servico.csproj", "{ED00F3D8-37EB-46E3-AC2E-05F559DDC225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDBF48C5-0355-4D2D-AC22-728B837FC121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBF48C5-0355-4D2D-AC22-728B837FC121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBF48C5-0355-4D2D-AC22-728B837FC121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBF48C5-0355-4D2D-AC22-728B837FC121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D7B104-6E69-4CFE-ACA8-02AEC0F13DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D7B104-6E69-4CFE-ACA8-02AEC0F13DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D7B104-6E69-4CFE-ACA8-02AEC0F13DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D7B104-6E69-4CFE-ACA8-02AEC0F13DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B20968-CACF-41CA-A3B8-EB7C883B9E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B20968-CACF-41CA-A3B8-EB7C883B9E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B20968-CACF-41CA-A3B8-EB7C883B9E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B20968-CACF-41CA-A3B8-EB7C883B9E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33A8A7F-079B-4BB5-AFC4-75B959050923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33A8A7F-079B-4BB5-AFC4-75B959050923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33A8A7F-079B-4BB5-AFC4-75B959050923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33A8A7F-079B-4BB5-AFC4-75B959050923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED00F3D8-37EB-46E3-AC2E-05F559DDC225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED00F3D8-37EB-46E3-AC2E-05F559DDC225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED00F3D8-37EB-46E3-AC2E-05F559DDC225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED00F3D8-37EB-46E3-AC2E-05F559DDC225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDBF48C5-0355-4D2D-AC22-728B837FC121} = {97AF1298-B516-4861-9C66-3D01B15FD7C1}
+		{F33A8A7F-079B-4BB5-AFC4-75B959050923} = {990243FF-4F84-43D1-8DCC-87AC5FAC6909}
+		{ED00F3D8-37EB-46E3-AC2E-05F559DDC225} = {990243FF-4F84-43D1-8DCC-87AC5FAC6909}
+		{50D7B104-6E69-4CFE-ACA8-02AEC0F13DFD} = {F1378896-EF5E-4A45-9DCB-73BAF0E3DB17}
+		{07B20968-CACF-41CA-A3B8-EB7C883B9E6F} = {D1F95F95-E4BE-4D62-BF30-1F6E5EC182CF}
+	EndGlobalSection
+EndGlobal
